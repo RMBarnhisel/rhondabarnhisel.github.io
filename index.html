@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Rhonda Barnhisel — Communications & Brand Leader</title>
+<style>
+  :root{
+    --teal:#0E3B3E; --teal2:#15565A; --ink:#06201F;
+    --coral:#E0734A; --corall:#F0A07A; --sand:#E9D9C5;
+    --paper:#F6F1E9; --paper2:#ECE4D7; --line:#D8E0DD; --steel:#7E9794;
+    --maxw:1080px;
+  }
+  *{margin:0;padding:0;box-sizing:border-box;}
+  html{scroll-behavior:smooth;}
+  body{font-family:Georgia,'Times New Roman',serif;color:var(--teal);background:var(--paper);-webkit-font-smoothing:antialiased;line-height:1.55;}
+  .wrap{max-width:var(--maxw);margin:0 auto;padding:0 32px;}
+  .eyebrow{font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;font-size:12px;letter-spacing:3.5px;font-weight:700;text-transform:uppercase;color:var(--coral);}
+  a{color:inherit;}
+
+  .hero{background:linear-gradient(135deg,var(--teal) 0%,var(--teal2) 100%);color:#fff;position:relative;overflow:hidden;padding:96px 0 80px;}
+  .hero::before{content:"";position:absolute;inset:0;background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='48' height='48'><path d='M48 0 L0 0 0 48' fill='none' stroke='%23E0734A' stroke-width='1' opacity='0.08'/></svg>");pointer-events:none;}
+  .hero .wrap{position:relative;z-index:1;}
+  .avail{display:inline-flex;align-items:center;gap:9px;margin-bottom:26px;font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;font-size:13px;letter-spacing:.5px;color:var(--steel);}
+  .dot{width:10px;height:10px;border-radius:50%;background:var(--corall);animation:pulse 2.4s infinite;}
+  @keyframes pulse{0%{box-shadow:0 0 0 0 rgba(240,160,122,.55);}70%{box-shadow:0 0 0 12px rgba(240,160,122,0);}100%{box-shadow:0 0 0 0 rgba(240,160,122,0);}}
+  .hero h1{font-size:56px;line-height:1.07;font-weight:700;letter-spacing:-.5px;margin:8px 0 18px;}
+  .hero h1 .accent{color:var(--corall);font-style:italic;}
+  .hero .lede{font-size:21px;color:var(--line);max-width:700px;line-height:1.5;}
+  .hero .name-tag{font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;font-size:14px;letter-spacing:2px;color:var(--steel);margin-top:30px;text-transform:uppercase;}
+
+  section{padding:78px 0;}
+  .snum{font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;font-size:13px;font-weight:700;color:var(--coral);letter-spacing:2px;margin-bottom:10px;}
+  h2.sec{font-size:34px;font-weight:700;letter-spacing:-.3px;margin-bottom:26px;line-height:1.15;}
+  .rule{height:2px;width:64px;background:var(--coral);margin-bottom:30px;}
+
+  .thesis p{font-size:20px;line-height:1.7;max-width:760px;color:#26403e;}
+  .thesis p + p{margin-top:20px;}
+  .thesis .pull{font-size:25px;font-weight:700;color:var(--teal);line-height:1.4;font-style:italic;}
+
+  .lanes{background:var(--paper2);}
+  .lane-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:24px;}
+  .lane{background:#fff;border:1px solid var(--line);border-top:3px solid var(--coral);padding:28px 26px;border-radius:2px;}
+  .lane h3{font-size:21px;margin-bottom:6px;}
+  .lane .lane-sub{font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;font-size:12px;letter-spacing:1.5px;text-transform:uppercase;color:var(--coral);font-weight:700;margin-bottom:14px;}
+  .lane p{font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;font-size:14.5px;line-height:1.6;color:#3d5654;}
+
+  .tl-row{display:grid;grid-template-columns:140px 220px 1fr;gap:22px;padding:22px 0;border-bottom:1px solid var(--line);align-items:start;}
+  .tl-row:last-child{border-bottom:none;}
+  .tl-years{font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;font-size:13px;font-weight:700;color:var(--coral);letter-spacing:.5px;padding-top:3px;}
+  .tl-co{font-size:18px;font-weight:700;color:var(--teal);}
+  .tl-role{font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;font-size:13px;color:var(--steel);margin-top:3px;}
+  .tl-body{font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;font-size:14.5px;line-height:1.6;color:#3d5654;}
+
+  .proof{background:linear-gradient(135deg,var(--ink) 0%,var(--teal) 100%);color:#fff;position:relative;overflow:hidden;}
+  .proof::before{content:"";position:absolute;inset:0;background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='48' height='48'><path d='M48 0 L0 0 0 48' fill='none' stroke='%23E0734A' stroke-width='1' opacity='0.07'/></svg>");}
+  .proof .wrap{position:relative;z-index:1;}
+  .proof .snum{color:var(--corall);}
+  .proof h2.sec{color:#fff;}
+  .nums{display:grid;grid-template-columns:repeat(4,1fr);gap:30px 24px;margin:8px 0 46px;}
+  .num .big{font-size:44px;font-weight:700;color:var(--corall);line-height:1;}
+  .num .lab{font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;font-size:13px;color:var(--line);margin-top:8px;line-height:1.4;}
+  .feat{display:grid;grid-template-columns:repeat(3,1fr);gap:22px;border-top:1px solid rgba(240,160,122,.3);padding-top:34px;}
+  .feat .fitem h4{font-size:16px;color:var(--corall);margin-bottom:6px;font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;letter-spacing:.5px;}
+  .feat .fitem p{font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;font-size:14px;color:var(--line);line-height:1.55;}
+
+  .pov-grid{display:grid;grid-template-columns:1fr 1fr;gap:30px;}
+  .note{border-left:3px solid var(--coral);padding:4px 0 4px 22px;}
+  .note h4{font-size:18px;margin-bottom:8px;}
+  .note p{font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;font-size:15px;line-height:1.65;color:#3d5654;}
+
+  .credits{background:var(--paper2);}
+  .credit-row{display:flex;flex-wrap:wrap;gap:14px;}
+  .chip{background:#fff;border:1px solid var(--line);border-radius:40px;padding:9px 18px;font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;font-size:14px;color:var(--teal);font-weight:600;}
+  .chip span{color:var(--coral);}
+
+  .contact{background:var(--teal);color:#fff;text-align:center;padding:80px 0;}
+  .contact h2{font-size:38px;font-weight:700;margin-bottom:16px;color:#fff;}
+  .contact p{font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;color:var(--line);font-size:17px;max-width:580px;margin:0 auto 32px;}
+  .cta{display:inline-block;background:var(--coral);color:#fff;font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;font-weight:700;font-size:15px;letter-spacing:.5px;padding:15px 34px;border-radius:2px;text-decoration:none;transition:background .2s;}
+  .cta:hover{background:var(--corall);}
+  .channels{margin-top:34px;display:flex;gap:34px;justify-content:center;flex-wrap:wrap;font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;font-size:14px;color:var(--steel);letter-spacing:.5px;}
+  .channels a{color:var(--line);text-decoration:none;border-bottom:1px solid rgba(240,160,122,.4);padding-bottom:2px;}
+  .channels a:hover{color:var(--corall);}
+  footer{background:var(--ink);color:var(--steel);text-align:center;font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;font-size:12px;padding:24px;letter-spacing:.5px;}
+
+  .reveal{opacity:0;transform:translateY(18px);transition:opacity .7s ease,transform .7s ease;}
+  .reveal.in{opacity:1;transform:none;}
+
+  @media(max-width:880px){
+    .hero h1{font-size:40px;}
+    .lane-grid,.nums,.feat,.pov-grid{grid-template-columns:1fr 1fr;}
+    .tl-row{grid-template-columns:100px 1fr;}
+    .tl-body{grid-column:1/-1;}
+  }
+  @media(max-width:560px){
+    .wrap{padding:0 22px;}
+    .hero h1{font-size:32px;}
+    .lane-grid,.nums,.feat,.pov-grid{grid-template-columns:1fr;}
+  }
+</style>
+</head>
+<body>
+
+<!-- 01 HERO -->
+<header class="hero">
+  <div class="wrap">
+    <div class="avail"><span class="dot"></span> Open to communications &amp; brand leadership roles · Available now</div>
+    <div class="eyebrow">Brand Strategy · Communications · Video Production</div>
+    <h1>I tell the story that<br>makes people <span class="accent">stop and pay attention</span>.</h1>
+    <p class="lede">Emmy-nominated communications and creative leader. I work at the intersection of storytelling, strategy, and visual impact — from HGTV's #1-rated shows to Fortune 500 brands to live events for thousands.</p>
+    <div class="name-tag">Rhonda Barnhisel · Denver Metro · Remote / Hybrid</div>
+  </div>
+</header>
+
+<!-- 02 THESIS -->
+<section class="thesis">
+  <div class="wrap reveal">
+    <div class="snum">01 — The Thesis</div>
+    <h2 class="sec">Creative vision, run like a business.</h2>
+    <div class="rule"></div>
+    <p class="pull">A rare blend of creative, strategic, and production expertise — shaped by broadcast networks, Fortune 500 companies, and talent agencies.</p>
+    <p>I lead at the intersection of storytelling, strategy, and visual impact, helping organizations connect meaningfully with their audiences. With deep roots in broadcast television, corporate communications, and creative production, I develop the creative vision, talent, and capabilities that let organizations define their voice and elevate their brand.</p>
+    <p>I've led major brand transformations and developed award-winning promotional content that resonates across platforms — aligning creative direction with business priorities, managing multi-channel campaigns from idea to execution, and building collaborative partnerships across departments. Whether I'm producing a campaign, developing a brand aesthetic, or writing a CEO speech, the focus stays the same: quality, clarity, and audience connection.</p>
+  </div>
+</section>
+
+<!-- 03 LANES -->
+<section class="lanes">
+  <div class="wrap reveal">
+    <div class="snum">02 — How I Create Value</div>
+    <h2 class="sec">Three ways I move brands forward.</h2>
+    <div class="rule"></div>
+    <div class="lane-grid">
+      <div class="lane">
+        <div class="lane-sub">Lane A · Primary</div>
+        <h3>Communications &amp; Brand Leadership</h3>
+        <p>Director of Communications, Brand, or Creative — setting creative vision, leading brand transformations, and aligning multi-channel storytelling with business priorities. The home lane, where strategy and craft both count.</p>
+      </div>
+      <div class="lane">
+        <div class="lane-sub">Lane B</div>
+        <h3>Video &amp; Content Production</h3>
+        <p>Executive Producer / Director of Content — script to screen, on time and under budget. Network television experience (HGTV, Food Network) plus corporate and branded content for Fortune 500 companies.</p>
+      </div>
+      <div class="lane">
+        <div class="lane-sub">Lane C</div>
+        <h3>Executive Messaging &amp; Live Events</h3>
+        <p>CEO speechwriting, keynote and live-event production, internal storytelling. From a live broadcast into 10M+ households to a retailer summit stage for 5,000+ — I make executives land in the room.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 04 EXPERIENCE -->
+<section class="experience">
+  <div class="wrap reveal">
+    <div class="snum">03 — Experience</div>
+    <h2 class="sec">From the network to the boardroom.</h2>
+    <div class="rule"></div>
+
+    <div class="tl-row">
+      <div class="tl-years">2021 — 2025</div>
+      <div><div class="tl-co">Denver7 (KMGH-TV)</div><div class="tl-role">Media Marketing Strategist</div></div>
+      <div class="tl-body">Brand and marketing strategy for a major-market ABC affiliate — multi-channel campaigns, promotional content, and audience growth across broadcast and digital platforms.</div>
+    </div>
+    <div class="tl-row">
+      <div class="tl-years">2018 — 2021</div>
+      <div><div class="tl-co">Donna Baldwin Agency</div><div class="tl-role">Media Agent · On-Camera · Freelance Producer</div></div>
+      <div class="tl-body">Talent representation and production at a leading Denver talent agency; guided emerging talent in shaping their personal brands while producing freelance.</div>
+    </div>
+    <div class="tl-row">
+      <div class="tl-years">2013 — 2015</div>
+      <div><div class="tl-co">Kroger (King Soopers / City Market)</div><div class="tl-role">Supporting Producer / Director</div></div>
+      <div class="tl-body">Corporate video for marketing, merchandising, and new-product launches — internal storytelling for a Fortune 500 grocery retailer.</div>
+    </div>
+    <div class="tl-row">
+      <div class="tl-years">2007 — 2011</div>
+      <div><div class="tl-co">High Noon Entertainment</div><div class="tl-role">TV/Video Producer · Line / Segment / Post Producer</div></div>
+      <div class="tl-body">Line Producer on HGTV's #1-rated "Bang For Your Buck" (pilot through 7th season); segment producer on Food Network's "Ultimate Recipe Showdown" with Guy Fieri; post-production supervisor on "Carter Can." Consistently delivered 13–39 eps/season, on schedule and under budget.</div>
+    </div>
+    <div class="tl-row">
+      <div class="tl-years">2005 — 2007</div>
+      <div><div class="tl-co">Dish Network</div><div class="tl-role">Producer · Event Producer · Exec Producer, "Charlie Chat"</div></div>
+      <div class="tl-body">Branded Channel 101 and grew subscribers; produced the live "Charlie Chat" broadcast into 10M+ households featuring CEO Charlie Ergen; produced Team Summit live events for audiences exceeding 5,000.</div>
+    </div>
+  </div>
+</section>
+
+<!-- 05 PROOF -->
+<section class="proof">
+  <div class="wrap reveal">
+    <div class="snum">04 — Proof</div>
+    <h2 class="sec">The track record.</h2>
+    <div class="nums">
+      <div class="num"><div class="big">Emmy</div><div class="lab">Nominated (PSA, station promo, commercial honors)</div></div>
+      <div class="num"><div class="big">10M+</div><div class="lab">Households reached, live broadcast</div></div>
+      <div class="num"><div class="big">5,000+</div><div class="lab">Live-event audience, retailer summit</div></div>
+      <div class="num"><div class="big">39</div><div class="lab">Episodes/season, on time &amp; under budget</div></div>
+      <div class="num"><div class="big">#1</div><div class="lab">HGTV-rated shows produced</div></div>
+      <div class="num"><div class="big">20+</div><div class="lab">Crew led on live broadcast</div></div>
+      <div class="num"><div class="big">7</div><div class="lab">Seasons, "Bang For Your Buck"</div></div>
+      <div class="num"><div class="big">20 yrs</div><div class="lab">Across broadcast, corporate &amp; agency</div></div>
+    </div>
+    <div class="feat">
+      <div class="fitem"><h4>Network Television</h4><p>HGTV, Food Network, DIY — produced, directed, and delivered #1-rated unscripted series end to end.</p></div>
+      <div class="fitem"><h4>Fortune 500 Brands</h4><p>Internal storytelling and branded content for Kroger and Dish Network; brand strategy for a major ABC affiliate.</p></div>
+      <div class="fitem"><h4>Live &amp; Executive</h4><p>CEO messaging, live broadcasts into millions of homes, and summit stages for thousands — under pressure, in real time.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- 06 CREDITS -->
+<section class="credits">
+  <div class="wrap reveal">
+    <div class="snum">05 — Selected Credits</div>
+    <h2 class="sec">Where the work has lived.</h2>
+    <div class="rule"></div>
+    <div class="credit-row">
+      <div class="chip"><span>HGTV</span> · Bang For Your Buck</div>
+      <div class="chip"><span>HGTV</span> · Carter Can</div>
+      <div class="chip"><span>Food Network</span> · Ultimate Recipe Showdown</div>
+      <div class="chip"><span>DIY</span> · Building Off The Grid</div>
+      <div class="chip"><span>Dish Network</span> · Charlie Chat (live)</div>
+      <div class="chip"><span>Kroger</span> · Corporate Video</div>
+      <div class="chip"><span>Denver7</span> · Brand &amp; Marketing</div>
+      <div class="chip"><span>Craftsy</span> · Online Courses</div>
+    </div>
+  </div>
+</section>
+
+<!-- 07 POV -->
+<section class="pov">
+  <div class="wrap reveal">
+    <div class="snum">06 — Point of View</div>
+    <h2 class="sec">How I think about the work.</h2>
+    <div class="rule"></div>
+    <div class="pov-grid">
+      <div class="note"><h4>Creative has to earn its keep.</h4><p>The best creative direction isn't the prettiest — it's the one tied to a business priority. I've spent my career aligning the two, so the work moves a number, not just a mood board.</p></div>
+      <div class="note"><h4>Under budget is a creative skill.</h4><p>Delivering 39 episodes a season on time and on budget isn't a constraint on creativity — it's proof of it. Constraints are where the real producing happens.</p></div>
+      <div class="note"><h4>Live is the truest test.</h4><p>When the broadcast is live into millions of homes and the CEO is on, there are no second takes. That pressure taught me clarity: know the one thing the audience must walk away with.</p></div>
+      <div class="note"><h4>Brand is a story people repeat.</h4><p>A brand isn't a logo or a palette — it's the story your audience tells about you when you're not in the room. My job is to make that story clear, true, and worth repeating.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- 08 CONTACT -->
+<section class="contact" id="contact">
+  <div class="wrap">
+    <h2>Let's tell a story worth paying attention to.</h2>
+    <p>If you're building a brand, a communications function, or a content engine that needs a creative leader who can run it like a business — let's talk.</p>
+    <a class="cta" href="Rhonda_Barnhisel_Resume.pdf" download>Download Resume</a>
+    <div class="channels">
+      <a href="mailto:rbarnhisel@outlook.com">rbarnhisel@outlook.com</a>
+      <a href="https://www.linkedin.com/in/rhondabarnhisel">LinkedIn</a>
+      <span>Denver Metropolitan Area · Remote / Hybrid</span>
+    </div>
+  </div>
+</section>
+
+<footer>© 2026 Rhonda Barnhisel · Communications &amp; Brand Leadership</footer>
+
+<script>
+  const io=new IntersectionObserver((es)=>{es.forEach(e=>{if(e.isIntersecting)e.target.classList.add('in');});},{threshold:0.12});
+  document.querySelectorAll('.reveal').forEach(el=>io.observe(el));
+</script>
+</body>
+</html>
